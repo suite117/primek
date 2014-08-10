@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost/primek/en/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://localhost/primek/en</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost/primek/en/contact-us</loc></url>
+<url><loc>http://localhost/primek/en/home</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost/primek/en/news-events</loc></url>
+<url><loc>http://localhost/primek/en/content/titolo-4</loc><lastmod>2014-04-14T17:55Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/en/content/titolo-3</loc><lastmod>2014-04-14T17:54Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/en/content/titolo-2</loc><lastmod>2014-04-14T17:51Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/en/content/titolo-1</loc><lastmod>2014-04-14T17:52Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/en/company</loc></url>
+<url><loc>http://localhost/primek/en/content/flexstone-arenaria</loc><lastmod>2014-04-06T18:26Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/en/products-list</loc></url>
+<url><loc>http://localhost/primek/en/products/bamboo</loc></url>
+<url><loc>http://localhost/primek/en/products/le-pietre</loc></url>
+<url><loc>http://localhost/primek/en/prodotti/stones</loc></url>
+<url><loc>http://localhost/primek/en/taxonomy/term/20</loc></url>
+</urlset>

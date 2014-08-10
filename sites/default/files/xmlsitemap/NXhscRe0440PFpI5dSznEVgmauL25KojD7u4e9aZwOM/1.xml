@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost/primek/it/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://localhost/primek/it</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost/primek/it/contact-us</loc></url>
+<url><loc>http://localhost/primek/it/home</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost/primek/it/news-events</loc></url>
+<url><loc>http://localhost/primek/it/content/titolo-4</loc><lastmod>2014-04-14T17:55Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/titolo-3</loc><lastmod>2014-04-14T17:54Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/titolo-2</loc><lastmod>2014-04-14T17:51Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/titolo-1</loc><lastmod>2014-04-14T17:52Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/it/azienda</loc></url>
+<url><loc>http://localhost/primek/it/content/flexstone-arenaria</loc><lastmod>2014-04-06T18:26Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://localhost/primek/it/products-list</loc></url>
+<url><loc>http://localhost/primek/it/products/bamboo</loc></url>
+<url><loc>http://localhost/primek/it/products/le-pietre</loc></url>
+<url><loc>http://localhost/primek/it/prodotti/le-pietre</loc></url>
+<url><loc>http://localhost/primek/it/prodotti/bamboo</loc></url>
+<url><loc>http://localhost/primek/it/light-stone</loc><lastmod>2014-05-02T17:41Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/slate-lite</loc><lastmod>2014-04-24T16:46Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/panelpiedra</loc><lastmod>2014-04-23T09:10Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost/primek/it/content/ofstone</loc><lastmod>2014-04-23T09:20Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost/primek/it/azienda</loc><lastmod>2014-05-04T09:28Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost/primek/it/informativa-sulla-privacy</loc><lastmod>2014-06-15T10:37Z</lastmod><changefreq>daily</changefreq></url>
+</urlset>

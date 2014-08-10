@@ -1,0 +1,50 @@
+<?php
+
+global $base_url;
+global $language;
+//dsm($row);
+//dsm($language->language);
+
+$current_url = url(current_path(), array('absolute' => TRUE));
+$url = drupal_get_path_alias('node/' . $row -> nid, $language -> language);
+$anc = "applicazioni_prodotto";
+//dsm($current_url);
+$url = $base_url . '/' . $language -> language . '/' . $url;
+if (strpos($current_url, $anc))
+	$url = $url . "#" . $anc;
+
+
+?>
+
+
+ <div  data-content="#demo-content<?= $row -> nid ?>" class="ho-box demo7 demo7-container">
+    <img style="max-width: 262px" src="<?php print file_create_url($row -> field_field_image[0]['rendered']['#item']['uri']); ?>" title="" />
+</div>
+<div class="ho-content" id="demo-content<?= $row -> nid ?>">
+    <a href="<?= $url ?>"><div class="views-field-title"><div class="hover-content-block">
+    	
+	    	<div class="field-title"><strong><?php print $row -> node_title; ?></strong>
+	    	</div>
+	    	<div class="field-slogan">
+		    	<?php print @$row -> field_field_slogan[0]['rendered']['#markup']; ?>
+		    </div>
+	    	<?php if (isset($row -> field_field_descrizione[0])) : ?>
+		   		<div><?php print substr($row -> field_field_descrizione[0]['rendered']['#markup'], 0, 180); ?>
+		   			
+		   		</div>
+	   		<?php endif; ?>
+	   		<a class="read-more" href="<?= $url ?>"><?= t('Read more') ?></a>
+   		</div>
+   		
+   	</div></a>
+</div>
+
+<?php //$node = node_load($row -> nid); ?>
+
+<style>
+	.demo7 {
+		width: 260px;
+		display: inline-block;
+	}
+
+</style>
