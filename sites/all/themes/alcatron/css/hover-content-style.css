@@ -1,0 +1,30 @@
+.ho-box{
+	position: relative;
+	overflow: hidden;
+}
+.hover-content-box{
+	display: none;
+}
+.hover-content-box, .hover-content-copy-txt, .hover-content-box-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.hover-content-copy-txt{
+	z-index: 2;
+	overflow: auto;
+	color: #fff;
+}
+.hover-content-box-overlay{
+	background: #000;
+	opacity: 0.75;
+	z-index: 1;
+}
+.ho-content, .ho-push-content{
+	display: none;
+}
+.hover-content-block{
+	padding: 10px;
+	line-height: 16px;
+}

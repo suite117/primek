@@ -1,0 +1,55 @@
+name = Alcatron
+description = A flexible, responsive and multipurpose theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+settings[alcatron_portfolio_column] = large-block-grid-4
+settings[contact_us_title]= Contact us
+settings[alcatron_menu_override] = yes
+settings[alcatron_theme] = light
+settings[alcatron_newsletter_title] = Get our newsletter
+settings[alcatron_newsletter_dialog] = Velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+
+
+
+stylesheets[all][] = plugins/smallipop/css/contrib/animate.min.css
+stylesheets[all][] = plugins/smallipop/css/jquery.smallipop.css
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/foundation.css
+stylesheets[all][] = css/fgx-foundation.css
+stylesheets[all][] = plugins/fontawesome/css/font-awesome.min.css
+stylesheets[all][] = css//themes/default/default.css
+stylesheets[all][] = plugins/prettyphoto/prettyPhoto.css  
+stylesheets[all][] = css/responsive.css
+
+
+scripts[] = js/vendor/custom.modernizr.js
+scripts[] = js/app-head-calls.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = plugins/smallipop/lib/contrib/prettify.js
+scripts[] = plugins/smallipop/lib/jquery.smallipop.js
+scripts[] = plugins/smallipop/lib/smallipop.calls.js
+scripts[] = plugins/carouFredSel/jquery.carouFredSel-6.2.0-packed.js
+scripts[] = plugins/carouFredSel/helper-plugins/jquery.touchSwipe.min.js
+scripts[] = plugins/prettyphoto/jquery.prettyPhoto.js
+
+
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by drupal.org packaging script on 2013-04-03
+version = "7.22"
+project = "drupal"
+datestamp = "1365027012"
+

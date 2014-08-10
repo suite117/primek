@@ -1,0 +1,298 @@
+.demo-box{
+	border: solid 10px #e5e5e5;
+	background: #CCC;
+}
+
+/* Demo1 Style */
+.demo-box1, .demo1{
+	width: 220px;
+	height: 220px;
+}
+.demo1 .hover-content-copy-txt{
+	color: #fff;
+}
+.demo1 .hover-content-block{
+	padding: 10px;
+}
+.demo1 .hover-content-box-overlay{
+	background: #ff0000;
+	opacity: 1;
+}
+.demo1 .hover-content-block strong{
+	font-size: 24px;
+	display: block;
+	padding: 10px 0 10px 0;
+}
+
+.demo1 .btn{
+	background: #030303 url(../img/demo1-btn-bg.jpg) repeat-x left top;
+	padding: 5px 20px;
+	margin:0 10px 0 0;
+	color: #fff;
+	text-decoration: none;
+	border: solid 1px #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+/* Demo2 Style */
+.demo-box2, .demo2{
+	width: 220px;
+	height: 220px;
+}
+.demo2 .hover-content-box-overlay{
+	background: #068ecc;
+	opacity: 0.8;
+}
+.demo2 .hover-content-block{
+	text-align: center;
+	padding-top: 100px;
+}
+.demo2 .btn{
+	background: #4fa425 url(../img/demo2-btn-bg.jpg) repeat-x left top;
+	padding: 8px 30px;
+	color: #195100;
+	text-decoration: none;
+	border: solid 1px #2a862e;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	text-shadow: 0 1px 0 rgba(206, 250, 188, 0.75);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Demo3 Style */
+.demo-box3, .demo3, .demo3-img, .demo3 .hover-content-box-overlay{
+	-moz-border-radius: 120px;
+	-webkit-border-radius: 120px;
+	border-radius: 120px;
+	overflow: hidden;
+}
+.demo-box3, .demo3{
+	width: 220px;
+	height: 220px;
+}
+.demo3 .hover-content-box-overlay{
+	background: #000;
+	opacity: 0.8;
+}
+.demo3 .hover-content-block{
+	text-align: center;
+	padding-top: 90px;
+}
+.demo3 .btn{
+	text-decoration: none;
+}
+
+/* Demo4 Style */
+.demo-box4, .demo4{
+	width: 220px;
+	height: 220px;
+}
+.demo4 .hover-content-box-overlay{
+	background: #000;
+	opacity: 0;
+}
+.demo4 .hover-content-block{
+	padding: 0;
+}
+.demo4 .hover-content-block p{
+	background: url(../img/badge.png) no-repeat left top;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 36px;
+	height: 36px;
+	margin-top: 30px;
+	padding: 0 10px;
+}
+.demo4 .push-content-block{
+	background: #2a2a2a;
+	width: 220px;
+	height: 220px;
+	color: #8d8d8d;
+}
+.demo4 .push-content-block p{
+	padding: 90px 15px 15px 15px; 
+}
+
+/* Demo5 Style */
+.demo-box5, .demo5{
+	width: 220px;
+	height: 220px;
+}
+.demo5 .hover-content-box-overlay{
+	background: #4ac003;
+	opacity: 0.9;
+}
+.demo5 .hover-content-block{
+	padding: 0;
+}
+.demo5 .demo5-content{
+	font-size: 22px;
+	font-weight: bold;
+	color: #474747;
+	padding: 10px;
+	line-height: 28px;
+	background: #bbbbbb;
+	width: 180px;
+	height: 180px;
+}
+.demo5 .hover-content-block{
+	color: #163301;
+	padding: 25px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.demo5 .push-content-block{
+	background: #bbbbbb;
+	width: 220px;
+	height: 220px;
+	color: #474747;
+}
+.demo5 .push-content-block p{
+	padding: 90px 15px 15px 15px; 
+}
+
+/* Demo6 Style */
+.demo-box6, .demo6{
+	width: 220px;
+	height: 220px;
+}
+.demo6 .hover-content-block{
+	padding: 10px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+.demo6 .hover-content-box-overlay{
+	background: #ed7000;
+	opacity: 0.9;
+}
+.demo1 .hover-content-block p{
+	padding: 0 0 20px 0;
+}
+
+/* Demo7 Style */
+.demo-box7, .demo7{
+	width: 545px;
+	height: 220px;
+}
+.demo7 .hover-content-block{
+	padding: 10px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+
+
+.demo7 .hover-content-block strong{
+	font-size: 26px;
+	font-weight: bold;
+	padding: 0 0 20px 0;
+}
+.demo7 .hover-content-box-overlay{
+	background: #000;
+	opacity: 0.8;
+}
+.demo7 .hover-content-block p{
+	padding: 0 0 20px 0;
+}
+
+/* Demo Button Style */
+.demo-btn1, .demo-btn2, .demo-btn3{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.demo-btn1{
+	background: #3f850a url(../img/btn-bg-1.jpg) repeat-x left top;
+	height: 32px;
+	width: 110px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	border: solid 1px #1f5107;
+}
+.demo-btn1 a.demo-btn1{
+	border: none;
+}
+.demo-btn1 .hover-content-block{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.demo-btn1 .hover-content-box-overlay{
+	background:#068cca url(../img/btn-hover-bg-1.jpg) repeat-x left top;
+	opacity: 1;
+	padding: 0;
+	margin: 0;
+}
+
+/* Button demo 2 */
+.demo-btn2{
+	background: #ff8c00 url(../img/btn-bg-2.jpg) repeat-x left top;
+	height: 32px;
+	width: auto;
+	color: #773800;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	border: solid 1px #e75700;
+	padding: 0 15px;
+}
+.demo-btn2 a.demo-btn2{
+	border: none;
+}
+.demo-btn2 .hover-content-block{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.demo-btn2 .hover-content-box-overlay{
+	background:#068cca url(../img/btn-hover-bg-1.jpg) repeat-x left top;
+	opacity: 1;
+	padding: 0;
+	margin: 0;
+}
+
+/* Button demo 3 */
+.demo-btn3{
+	background:#068cca url(../img/btn-hover-bg-1.jpg) repeat-x left top;
+	height: 32px;
+	width: 110px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	border: solid 1px #1f5107;
+}
+.demo-btn3 a.demo-btn3{
+	border: none;
+}
+.demo-btn3 .hover-content-block{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.demo-btn3 .hover-content-box-overlay{
+	background: #3f850a url(../img/btn-bg-1.jpg) repeat-x left top;
+	opacity: 1;
+	padding: 0;
+	margin: 0;
+}
+
+/* Custom Demo */
+#customDemoBox .demo1 .hover-content-box-overlay{
+	background: #000;
+	opacity: 0.7;
+}
+#customDemoBox p{
+	padding-bottom: 0;
+}
+#customDemoBox .push-content-block{
+	padding: 10px;
+}
